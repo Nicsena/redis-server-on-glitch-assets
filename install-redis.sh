@@ -31,6 +31,5 @@ appendonly yes
 daemonize yes
 EOM
 
-# Start Server
-cd
-./start-redis.sh
+# Refresh Project
+refresh
