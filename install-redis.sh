@@ -32,4 +32,5 @@ daemonize yes
 EOM
 
 # Start Project
+cd
 ./start-redis.sh
