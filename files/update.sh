@@ -3,14 +3,6 @@ echo "Update is 95% Completed"
 cd /app/
 wget -q https://raw.githubusercontent.com/Nicsena/redis-server-on-glitch-assets/master/files/update-redis.sh -O update-redis.sh
 echo "Update is 100% Completed"
-chmod + update-redis.sh
-echo "Refreshing Project shortly..."
-wait 3
-echo "Refreshing in 3..."
-wait 1
-echo "Refreshing in 2..."
-wait 1
-echo "Refreshing in 1..."
-wait 1
+chmod +x update-redis.sh
 echo "Refreshing!"
 refresh
