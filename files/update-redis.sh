@@ -28,10 +28,11 @@ chmod +x install-redis.sh
 
 # Update Files - Redis Configuration
 wget -q https://raw.githubusercontent.com/Nicsena/redis-server-on-glitch-assets/master/files/.redis -O .redis # Anything can change in the redis configuration file.
-echo "Update is 80% Completed."
+echo "Update is 85% Completed."
 
 # Update Files - Get Latest Version of the Update Script - Project will refresh shortly after
 cd /tmp/
 wget -q https://raw.githubusercontent.com/Nicsena/redis-server-on-glitch-assets/master/files/update.sh
+chmod +x update.sh
 bash /tmp/update.sh &
 exit 1
