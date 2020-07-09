@@ -1,4 +1,3 @@
-
 # Start Updating Process
 echo "Started Update Process - This may take a while to do."
 cd
@@ -34,4 +33,5 @@ echo "Update is 80% Completed."
 # Update Files - Get Latest Version of the Update Script - Project will refresh shortly after
 cd /tmp/
 wget -q https://raw.githubusercontent.com/Nicsena/redis-server-on-glitch-assets/master/files/update.sh
-bash /tmp/update.sh
+bash /tmp/update.sh &
+exit 1
